@@ -8,7 +8,10 @@ The $http service code used in the repository is mentioned below;-
       app.controller('listController',function ($scope, $http){
            $http.get('js/data.json').success(function(data){
             $scope.friends = data;
+             });
         });
+ # ng-model directive is used to bind the data in Input
+ The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
 
 
 
